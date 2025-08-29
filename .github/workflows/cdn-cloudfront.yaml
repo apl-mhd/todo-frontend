@@ -41,4 +41,4 @@ jobs:
 
       - name: Upload build artifacts to S3 bucket
         run: |
-          aws s3 cp --recursive ./build/ s3://ic-devops-b4-mahmud/edu/
+          aws s3 cp --recursive ./build/ s3://ic-devops-b4-mahmud/todo/
